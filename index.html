@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TransSib</title>
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__title-container">
+            <h1 class="header__title">Steppe и Tayga:</h1>
+            <h2 class="header__subtitle">longest train journey in the world</h2>
+            <p class="header__description">
+              Pies with liver, demobilization, conductors Tanya and Nadya, fermented baked milk at
+              the stations, Khabarovsk, Izhevsk, Moscow - only 18 days on the way. This is how
+              musician David Bowie made his way to Europe after a tour of Japan in the spring of
+              1973. Bowie was afraid to fly, so he took the train.
+            </p>
+          </div>
+          <div class="header__counter-container">
+            <div class="header__counter header__counter_km">
+              <span class="header__counter-value" id="header__counter-value_km">0</span>
+              km.
+            </div>
+            <div class="header__counter header__counter_days">
+              <span class="header__counter-value" id="header__counter-value_days">0</span>
+              days.
+            </div>
+            <div class="header__icon header__icon_sound">
+              <audio
+                controls
+                loop
+                src="https://pictures.s3.yandex.net/iframes_topic/audio.mp3"
+                type="audio/mp3"
+                id="sound"
+              ></audio>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="cities">
+        <div class="cities__container">
+          <div class="cities__city" id="cities__city_kostroma">
+            <div class="cities__video-container cities__video-container_kostroma">
+              <video
+                src="https://pictures.s3.yandex.net/iframes_topic/1.mp4"
+                poster="https://pictures.s3.yandex.net/iframes_topic/msk-kostroma.jpg"
+                muted
+                controls
+              ></video>
+            </div>
+            <p class="cities__text cities__text_kostroma">
+              First - the familiar landscapes of the European part of Russia: fields, summer
+              cottages, villages, forest belts, power lines. Abramtsevo, Berendeevo, Rostov Veliky,
+              Nerekhta: it seems that either in the country of hobbits, or in the past, in 1973, and
+              now from a neighboring the coupe will be released by a tall, awkward man in a Japanese
+              kimono and bright pants.
+            </p>
+          </div>
+          <div class="cities__city" id="cities__city_ekb">
+            <div class="cities__video-container cities__video-container_ekb">
+              <video
+                src="https://pictures.s3.yandex.net/iframes_topic/2.mp4"
+                poster="https://pictures.s3.yandex.net/iframes_topic/kostroma-ekb.jpg"
+                controls
+                muted
+              ></video>
+            </div>
+            <p class="cities__text cities__text_ekb">
+              It's time to improve your everyday life. In Kostroma, you bought everything that you
+              forgot to take with you - instant coffee, vodka, doshik. Make yourself comfortable. We
+              have not even reached the Urals yet.
+            </p>
+          </div>
+          <div class="cities__city" id="cities__city_omsk">
+            <div class="cities__video-container cities__video-container_omsk">
+              <video
+                src="https://pictures.s3.yandex.net/iframes_topic/3.mp4"
+                controls
+                poster="https://pictures.s3.yandex.net/iframes_topic/ekb-omsk.jpg"
+              ></video>
+            </div>
+            <p class="cities__text cities__text_omsk">
+              The journey finally ceased to be a journey and became a trip. This mystical you will
+              never forget the experience of immersion in the depths of Russia. Europe is left
+              behind but Asia does not even think of starting. Perhaps you have stood still all this
+              time. FROM on the other hand, if you look out the window for a long time (and what
+              else to do), you can see the army Kolchak, attacking the Reds. Or mammoths that once
+              roamed here along rail.
+            </p>
+          </div>
+          <div class="cities__city" id="cities__city_yablonovy-pereval">
+            <div class="cities__video-container cities__video-container_yablonovy-pereval">
+              <video
+                src="https://pictures.s3.yandex.net/iframes_topic/4.mp4"
+                controls
+                muted
+                poster="https://pictures.s3.yandex.net/iframes_topic/pereval.jpg"
+              ></video>
+            </div>
+            <p class="cities__text cities__text_yablonovy-pereval">
+              Baikal is behind. You are in the heart of the continent, there is no Hellene, no Jew,
+              no Europe, not Asia. The train passes the highest point of the Transsib, after which
+              it begins path to the sea. Once the road narrowed here to one track and went through a
+              narrow tunnel, on the portal of which there was a chthonic indication of the
+              direction: "To the great ocean."
+            </p>
+          </div>
+          <div class="cities__city" id="cities__city_khabarovsk">
+            <div class="cities__video-container cities__video-container_khabarovsk">
+              <video
+                src="https://pictures.s3.yandex.net/iframes_topic/5.mp4"
+                controls
+                muted
+                poster="https://pictures.s3.yandex.net/iframes_topic/pereval-khb.jpg"
+              ></video>
+            </div>
+            <p class="cities__text cities__text_khabarovsk">
+              Khabarovsk appears when it already seems that you will spend the rest of your life on
+              the train. ABOUT you already know more about your neighbors in the carriage than about
+              your next of kin. But also some 800 kilometers - and Vladivostok.
+            </p>
+          </div>
+          <div class="cities__city" id="cities__city_vladivostok">
+            <div class="cities__video-container cities__video-container_vladivostok">
+              <div class="cities__video-title">Vladivostok</div>
+              <iframe
+                width="100%"
+                height="720px"
+                src="https://www.youtube.com/embed/O6wuDwzhDvY"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <p class="cities__text cities__text_vladivostok">
+              It's like a trip to the Zone in Tarkovsky's Stalker. Something different happens to
+              everyone but, having made this path, no one remains the same person who left Moscow a
+              week ago.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="iframes">
+        <div class="iframes__container">
+          <div class="iframe iframe__tickets">
+            <div class="iframe__title">View Schedule ⟶</div>
+            <div class="iframe__item">
+              <iframe
+                frameborder="0"
+                style="overflow: hidden; border: 0; width: 80vw; height: 350px"
+                src="https://rasp.yandex.ru/informers/search/?fromId=c213&amp;toId=c75&amp;size=5&amp;color=1&amp;type=train"
+              >
+              </iframe>
+            </div>
+          </div>
+          <div class="iframe iframe__music">
+            <div class="iframe__title">Что послушать ⟶</div>
+            <div class="iframe__item">
+              <iframe
+                frameborder="0"
+                width="900"
+                height="600"
+                src="https://music.yandex.ru/iframe/#playlist/yamusic-bestsongs/631822/show/cover/description/black/"
+              >
+                Слушайте
+                <a href="https://music.yandex.ru/users/yamusic-bestsongs/playlists/631822">
+                  Лучшее: A$AP Rocky
+                </a>
+                —
+                <a href="https://music.yandex.ru/users/yamusic-bestsongs">Яндекс.Музыка</a>
+                на Яндекс.Музыке
+              </iframe>
+            </div>
+          </div>
+          <div class="iframe iframe__books">
+            <div class="iframe__title">Что почитать ⟶</div>
+            <div class="iframe__item">
+              <iframe
+                type="text/html"
+                width="336"
+                height="550"
+                frameborder="0"
+                allowfullscreen
+                style="max-width: 100%"
+                src="https://read.amazon.com/kp/card?asin=B073D36KNM&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_qmq.BbMTSMXNQ"
+              >
+              </iframe>
+            </div>
+          </div>
+          <div class="iframe iframe__map">
+            <div class="iframe__title">Path map ⟶</div>
+            <div class="iframe__item">
+              <a
+                href="https://yandex.ru/maps/?um=constructor%3Ae7584623c950d87f6c1c62ca98f65bfc25b13470edb5148fcb924a3959925319&amp;source=constructorStatic"
+                target="_blank"
+                ><img
+                  src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3Ae7584623c950d87f6c1c62ca98f65bfc25b13470edb5148fcb924a3959925319&amp;width=600&amp;height=400&amp;lang=ru_RU"
+                  alt=""
+                  style="max-width: 80vw"
+              /></a>
+            </div>
+          </div>
+          <div class="iframe iframe__social">
+            <div class="iframe__title">My report ⟶</div>
+            <div class="iframe__item">
+              <iframe
+                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FDrachiosaurus%2Fposts%2F1857733597882973&width=500"
+                width="500"
+                height="688"
+                style="border: none; overflow: hidden"
+                scrolling="no"
+                frameborder="0"
+                allowTransparency="true"
+                allow="encrypted-media"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
